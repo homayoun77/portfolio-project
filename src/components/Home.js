@@ -2,6 +2,8 @@ import React from 'react'
 
 import { HiArrowNarrowRight } from 'react-icons/hi'
 
+import { Link } from 'react-scroll'
+
 function Home() {
     return (
         <div name='home' className='w-full h-screen bg-primary'>
@@ -13,8 +15,12 @@ function Home() {
                     designing) exceptional digital experiences. Currently, I'm focused on
                     building responsive web applications.</p>
                 <div>
-                    <button className='text-white group border-2 py-3 px-6 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+                <Link to="work" smooth={true} duration={500}>
+                <button className='text-white group border-2 py-3 px-6 flex items-center hover:bg-pink-600 hover:border-pink-600'>
                         View Work <span className='ml-2 group-hover:rotate-90 duration-300'><HiArrowNarrowRight /></span> </button>
+                </Link>
+
+                    
                 </div>
             </div>
         </div>
