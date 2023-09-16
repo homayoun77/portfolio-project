@@ -4,7 +4,7 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactImg from '../assets/react.png'
-import nodejs from '../assets/node.png'
+import bootstrap from '../assets/bs5.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
 import firebase from '../assets/firebase.png'
@@ -36,8 +36,8 @@ function Skills() {
                     <p className='my-4'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-2'>
-                    <img src={nodejs} alt="node" className='w-20 mx-auto' />
-                    <p className='my-4'>Node JS</p>
+                    <img src={bootstrap} alt="node" className='w-20 mx-auto' />
+                    <p className='my-4'>Bootstrap</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-2'>
                     <img src={tailwind} alt="tailwind" className='w-20 mx-auto' />

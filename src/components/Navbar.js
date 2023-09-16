@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import logo from '../assets/logo1.png'
+import logo from '../assets/unnamed-Recovered.png'
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
