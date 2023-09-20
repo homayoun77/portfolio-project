@@ -43,25 +43,25 @@ function Navbar() {
             </ul>
 
             <div className='flex lg:hidden'>
-                <ul className='flex'>
-                    <li className='bg-blue-600 p-1.5 mx-0.5 rounded-full'>
+                <ul className='flex text-white'>
+                    <li className='bg-blue-600 p-1.5 mx-1 rounded-full'>
                         <a href="https://www.linkedin.com/in/homayoon-norozy/" target='_blank' className=''>
-                            <FaLinkedin size={18} />
+                            <FaLinkedin size={20} />
                         </a>
                     </li>
-                    <li className='bg-[#333333] p-1.5 mx-0.5 rounded-full'>
+                    <li className='bg-[#333333] p-1.5 mx-1 rounded-full'>
                         <a href="https://github.com/homayoun77" target='_blank' className=''>
-                            <FaGithub size={18} />
+                            <FaGithub size={20} />
                         </a>
                     </li>
-                    <li className='bg-[#6fc2b0] p-1.5 mx-0.5 rounded-full'>
+                    <li className='bg-[#6fc2b0] p-1.5 mx-1 rounded-full'>
                         <a href="mailto: homayounn77@gmail.com" target='_blank' className=''>
-                            <HiOutlineMail size={18} />
+                            <HiOutlineMail size={20} />
                         </a>
                     </li>
-                    <li className='bg-[#565f69] p-1.5 mx-0.5 rounded-full'>
+                    <li className='bg-[#565f69] p-1.5 mx-1 rounded-full'>
                         <a href="#" className=''>
-                            <BsFillPersonLinesFill size={18} />
+                            <BsFillPersonLinesFill size={20} />
                         </a>
                     </li>
                 </ul>
