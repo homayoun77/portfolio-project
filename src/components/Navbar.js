@@ -42,6 +42,31 @@ function Navbar() {
                 </li>
             </ul>
 
+            <div className='flex lg:hidden'>
+                <ul className='flex'>
+                    <li className='bg-blue-600 p-1.5 mx-0.5 rounded-full'>
+                        <a href="https://www.linkedin.com/in/homayoon-norozy/" target='_blank' className=''>
+                            <FaLinkedin size={18} />
+                        </a>
+                    </li>
+                    <li className='bg-[#333333] p-1.5 mx-0.5 rounded-full'>
+                        <a href="https://github.com/homayoun77" target='_blank' className=''>
+                            <FaGithub size={18} />
+                        </a>
+                    </li>
+                    <li className='bg-[#6fc2b0] p-1.5 mx-0.5 rounded-full'>
+                        <a href="mailto: homayounn77@gmail.com" target='_blank' className=''>
+                            <HiOutlineMail size={18} />
+                        </a>
+                    </li>
+                    <li className='bg-[#565f69] p-1.5 mx-0.5 rounded-full'>
+                        <a href="#" className=''>
+                            <BsFillPersonLinesFill size={18} />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             {/* hamburger menu */}
             <div onClick={clickHandler} className='md:hidden z-10 cursor-pointer'>
                 {!toggle ? <FaBars size={30} /> : <FaTimes size={30} />}
@@ -75,7 +100,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='bg-[#565f69] w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a href="" className='flex justify-between items-center w-full text-white'>
+                        <a href="#" className='flex justify-between items-center w-full text-white'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
