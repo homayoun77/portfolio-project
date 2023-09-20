@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.39be650e.css",
-    "main.js": "/portfolio-project/static/js/main.fa1ef95f.js",
+    "main.css": "/portfolio-project/static/css/main.f16f522b.css",
+    "main.js": "/portfolio-project/static/js/main.36797962.js",
     "static/media/netflix-project.png": "/portfolio-project/static/media/netflix-project.471e336a3a58a03336e3.png",
     "static/media/realestate.jpg": "/portfolio-project/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/bs5.png": "/portfolio-project/static/media/bs5.c39972bd888036acfc43.png",
@@ -14,11 +14,11 @@
     "static/media/firebase.png": "/portfolio-project/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/portfolio-project/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-project/index.html",
-    "main.39be650e.css.map": "/portfolio-project/static/css/main.39be650e.css.map",
-    "main.fa1ef95f.js.map": "/portfolio-project/static/js/main.fa1ef95f.js.map"
+    "main.f16f522b.css.map": "/portfolio-project/static/css/main.f16f522b.css.map",
+    "main.36797962.js.map": "/portfolio-project/static/js/main.36797962.js.map"
   },
   "entrypoints": [
-    "static/css/main.39be650e.css",
-    "static/js/main.fa1ef95f.js"
+    "static/css/main.f16f522b.css",
+    "static/js/main.36797962.js"
   ]
 }
