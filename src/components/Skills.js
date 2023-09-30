@@ -7,7 +7,7 @@ import reactImg from '../assets/react.png'
 import bootstrap from '../assets/bs5.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
-import firebase from '../assets/firebase.png'
+import redux from '../assets/redux.png'
 
 function Skills() {
   return (
@@ -48,8 +48,8 @@ function Skills() {
                     <p className='my-4'>Github</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-2'>
-                    <img src={firebase} alt="firebase" className='w-20 mx-auto' />
-                    <p className='my-4'>Firebase</p>
+                    <img src={redux} alt="firebase" className='w-20 mx-auto' />
+                    <p className='my-4'>Redux</p>
                 </div>
             </div>
         </div>
