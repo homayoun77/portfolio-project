@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { motion } from 'framer-motion'
+
 import netflixProject from '../assets/projects/netflix-project.png'
 import realestate from '../assets/projects/realestate.jpg'
 
@@ -12,9 +14,14 @@ function Work() {
                 <p className='py-4'>Check out some of my recent works.</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-4'>
 
-              <div style={{backgroundImage: `url(${netflixProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
+              <motion.div style={{backgroundImage: `url(${netflixProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[400px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'
+                initial={{x:'-50%' , opacity:0}}
+                whileInView={{x:0 , opacity:1}}
+                viewport={{once:true}}
+                transition={{type:'spring' , delay:0.2, stiffness:30}}
+              >
                 <div className='opacity-0 group-hover:opacity-100'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
                     React js application
@@ -28,93 +35,8 @@ function Work() {
                     </a>
                   </div>
                 </div>
-              </div>
-
-
-              <div style={{backgroundImage: `url(${realestate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
-                <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                    React js application
-                  </span>
-                  <div className='pt-8 text-center'>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div style={{backgroundImage: `url(${netflixProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
-                <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                    React js application
-                  </span>
-                  <div className='pt-8 text-center'>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div style={{backgroundImage: `url(${realestate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
-                <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                    React js application
-                  </span>
-                  <div className='pt-8 text-center'>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div style={{backgroundImage: `url(${netflixProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
-                <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                    React js application
-                  </span>
-                  <div className='pt-8 text-center'>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div style={{backgroundImage: `url(${realestate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[230px] bg-cover bg-no-repeat bg-center hover:!bg-gradient-to-r from-gradient1 to-gradient2'>
-                <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                    React js application
-                  </span>
-                  <div className='pt-8 text-center'>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#1">
-                      <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
+              </motion.div>
+              
             </div>
         </div>
     </div>

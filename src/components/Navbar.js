@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 import logo from '../assets/unnamed-Recovered.png'
 
+import resume from '../assets/resume/homayoun norozy.pdf'
+
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -18,26 +20,23 @@ function Navbar() {
     }
 
     return (
-        <div className='fixed w-full h-20 flex justify-between items-center px-4 bg-primary text-gray-300'>
-            <div>
-                <img src={logo} alt="logo" className='w-12' />
-            </div>
+        <div className='fixed w-full h-20 flex justify-between lg:justify-center items-center px-4 lg:px-20 bg-primary text-gray-300'>
 
             {/* menu */}
             <ul className='hidden md:flex'>
-                <li>
+                <li className='hover:text-pink-600'>
                     <Link to="home" smooth={true} duration={500}>Home</Link>
                 </li>
-                <li>
+                <li className='hover:text-pink-600'>
                     <Link to="about" smooth={true} duration={500}>About</Link>
                 </li>
-                <li>
+                <li className='hover:text-pink-600'>
                     <Link to="skills" smooth={true} duration={500}>Skills</Link>
                 </li>
-                <li>
+                <li className='hover:text-pink-600'>
                     <Link to="work" smooth={true} duration={500}>Work</Link>
                 </li>
-                <li>
+                <li className='hover:text-pink-600'>
                     <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </li>
             </ul>
@@ -60,7 +59,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='bg-[#565f69] p-1.5 mx-1 rounded-full'>
-                        <a href="#" className=''>
+                        <a href={resume} className=''>
                             <BsFillPersonLinesFill size={20} />
                         </a>
                     </li>
@@ -100,7 +99,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='bg-[#565f69] w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a href="#" className='flex justify-between items-center w-full text-white'>
+                        <a href={resume} className='flex justify-between items-center w-full text-white'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
