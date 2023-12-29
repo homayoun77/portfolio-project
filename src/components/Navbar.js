@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-import logo from '../assets/unnamed-Recovered.png'
-
 import resume from '../assets/resume/homayoun norozy.pdf'
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
@@ -23,7 +21,7 @@ function Navbar() {
         <div className='fixed w-full h-20 flex justify-between lg:justify-center items-center px-4 lg:px-20 bg-primary text-gray-300'>
 
             {/* menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex text-2xl'>
                 <li className='hover:text-pink-600'>
                     <Link to="home" smooth={true} duration={500}>Home</Link>
                 </li>
