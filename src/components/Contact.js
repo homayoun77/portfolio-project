@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Contact() {
   return (
-    <div name='contact' className='w-full lg:h-screen bg-primary flex justify-center items-center p-4 pt-20 pb-10'>
+    <div name='contact' className='w-full xl:h-screen bg-primary flex justify-center items-center p-4 py-20'>
         <motion.form method='POST' action="https://getform.io/f/d77641c2-ff76-4a8a-82bc-f8fed95c954a" className='flex flex-col max-w-[600px] w-full'
         initial={{opacity:0 , scale:0}}
         whileInView={{opacity:1 , scale:1}}

@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 
 function Home() {
     return (
-        <motion.div name='home' className='w-full h-screen bg-primary'
+        <motion.div name='home' className='w-full md:h-screen bg-primary pt-32'
 
         >
             <motion.div className='max-w-[1000px] flex flex-col justify-center h-full mx-auto px-8'

@@ -18,7 +18,7 @@ function Navbar() {
     }
 
     return (
-        <div className='fixed w-full h-20 flex justify-between lg:justify-center items-center px-4 lg:px-20 bg-primary text-gray-300'>
+        <div className='fixed w-full h-20 flex justify-between xl:justify-center items-center px-4 lg:px-20 bg-primary text-gray-300 z-10'>
 
             {/* menu */}
             <ul className='hidden md:flex text-2xl'>
@@ -39,7 +39,7 @@ function Navbar() {
                 </li>
             </ul>
 
-            <div className='flex lg:hidden'>
+            <div className='flex xl:hidden'>
                 <ul className='flex text-white'>
                     <li className='bg-blue-600 p-1.5 mx-1 rounded-full'>
                         <a href="https://www.linkedin.com/in/homayoon-norozy/" target='_blank' className=''>
@@ -79,7 +79,7 @@ function Navbar() {
             </ul>
 
             {/* social icons */}
-            <div className='hidden lg:flex flex-col fixed left-0 top-1/3'>
+            <div className='hidden xl:flex flex-col fixed left-0 top-1/3'>
                 <ul>
                     <li className='bg-blue-600 w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300'>
                         <a href="https://www.linkedin.com/in/homayoon-norozy/" target='_blank' className='flex justify-between items-center w-full text-white'>

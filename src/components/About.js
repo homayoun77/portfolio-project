@@ -13,8 +13,8 @@ function About() {
     // } , [inView])
 
     return (
-        <div name='about' className='w-full h-screen bg-primary text-gray-300 py-2'>
-            <motion.div className='w-full h-full flex flex-col justify-center items-center'
+        <div name='about' className='w-full md:h-screen bg-primary text-gray-300 py-20'>
+            <motion.div className='w-full h-full flex flex-col justify-center items-center '
                 // ref={scope}
                 initial={{ opacity: 0 }}
                 whileInView={{opacity:1}}

@@ -12,7 +12,7 @@ import redux from '../assets/redux.png'
 
 function Skills() {
   return (
-    <div name='skills' className='bg-primary w-full sm:h-screen text-gray-300 py-20 sm:py-0 '>
+    <div name='skills' className='bg-primary w-full md:h-screen text-gray-300'>
         {/* container */}
         <motion.div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'
         // initial={{ opacity: 0 , scale:0 }}
